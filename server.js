@@ -167,7 +167,7 @@ var queryChain = (searchFood) => {
       error ? console.log(error) : console.log(res);
     });
 };
-
+queryChain("burritos");
 const port = 5000;
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
